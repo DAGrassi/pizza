@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+display: flex;
+flex-direction: column;
+}
+.header{
+    background-color: brown;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+}
+.footer{
+    background-color: aqua;
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    padding: 10px;
+}
+.main1{
+    background-color: blueviolet;
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+  padding: 10px;
+}
+.main2{
+    background-color: blue;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction:column;
+    padding: 10px;
+    gap: ´10px;
+}
+.header .logo{
+    width: 20%;
+    height: 10vh;
+    background-color: black;
+}
+.header .menu{
+    width: 80%;
+    height: 10vh;
+    background-color: rgb(31, 232, 128);
+}
+.main1 .one{
+    width: 100%;
+    height: 70%;
+    background-color: rgb(242, 153, 115);
+    display:grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+
+.main2 .foto{
+    width: 100%;
+    height: 70%;
+    background-color: rgb(5, 252, 240);
+}
+.footer .seccion1{
+    background-color: darkslategrey;
+    width: 100%;
+    height: 10vh;
+}
+.footer .seccion2{
+    background-color: olive;
+    width: 100%;
+    height: 10vh;
+}
+.main1 .one .item{
+    background-color: gold;
+}
+.main1 .one .item-2{
+    grid-area: 1/ 3/ span 2 /4;
+}
+.main2 .foto{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto auto auto;
+}
+.main2 .foto .item{
+    background-color: tan;
+}
